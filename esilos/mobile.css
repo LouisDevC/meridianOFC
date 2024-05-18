@@ -88,7 +88,7 @@ h1{
     background-color: #fadef8;
     display: inline-block;
     width: 30vw;
-    height: 35vh;
+    height: 30vh;
     margin: 15px;
     border: 3px solid #7A439D;
     border-radius: 20px;
@@ -102,13 +102,13 @@ h1{
 .container img{
     border-radius: 5px;
     width: 20vw;
-    height: 20vh;
+    height: 15vh;
     border: 1px solid #7A439D;
 }
 .container p{
     font-family: var(--quicksand);
-    font-size: 0.7em;
-    padding: 5px;
+    font-size: 0.8em;
+    padding: px;
 }
 footer{
     text-align: center;
