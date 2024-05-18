@@ -91,7 +91,7 @@ h1{
     background-color: #fadef8;
     display: inline-block;
     width: 20vw;
-    height: 16vh;
+    height: 15.5vh;
     border: 3px solid #7A439D;
     border-radius: 20px;
     text-align: center;
@@ -111,7 +111,10 @@ h1{
 .container p{
     font-family: var(--quicksand);
     font-size: 0.2em;
+    width: 19vw;
     padding: px;
+    position: absolute;
+
 }
 footer{
     text-align: center;
