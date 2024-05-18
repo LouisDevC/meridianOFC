@@ -1,8 +1,10 @@
 @charset "UTF-8";
+
 @import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300..700&display=swap');
+
 @font-face {
     font-family: 'Amegap';
-    src: url(fonts/Amegap.ttf) format('opentype');
+    src: url(../fonts/Amegap.ttf) format('opentype');
     font-weight: normal;
     font-style: normal;
 }
@@ -13,4 +15,115 @@
     --cor2:#EEC0EB;
     --cor3:#FAE3FF;
     --quicksand: "Quicksand", sans-serif;
-    
+}
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+header{
+    text-align: center;
+    background-color: #EEC0EB;
+    height: auto;
+    padding-bottom: 10px;
+    border-bottom: 3px solid #7A439D;
+}
+header > img{
+    height: 100px;
+}
+nav{
+    position: absolute;
+    display: none;
+    width: 100%;
+    height: 30%;
+    background-color: #7b439d;
+    padding: 20px;
+    border-radius: 0px 0px 20px 20px;
+    box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.616);
+}
+nav a{
+    display: block;
+    background-color: #FAE3FF;
+    border: 1px solid black;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-decoration: none;
+    color: #7A439D;
+    margin: 5px;
+    border-radius: 5px;
+    width: 100%;
+    text-align: center;
+}
+nav a:hover{
+    background-color: #f3abee;
+    color: white;
+    border: 1px solid white;
+    transition: .5s;
+}
+.pesquisa{display: none;}
+hr{
+    display: none;
+}
+main{
+    padding: 5px 60px;
+}
+h1{
+    text-align: center;
+    font-family: 'amegap', serif;
+    font-weight: lighter;
+    letter-spacing: 3px;
+    background-color: var(--cor1);
+    width: 280px;
+    margin: auto;
+    margin-top: 10px;
+    border: 1px solid pink;
+    border-radius: 20px;
+    box-shadow: 1px 1px 5px black;
+}
+h1{
+    font-family: 'amegap';
+}
+.container{
+    background-color: #fadef8;
+    display: inline-block;
+    width: 30vw;
+    height: 35vh;
+    margin: 15px;
+    border: 3px solid #7A439D;
+    border-radius: 20px;
+    text-align: center;
+    padding-top: 10px;
+}
+.container:hover{
+    background-color: #F863BE;
+    transition: 0.3s;
+}
+.container img{
+    border-radius: 5px;
+    width: 20vw;
+    height: 20vh;
+    border: 1px solid #7A439D;
+}
+.container p{
+    font-family: var(--quicksand);
+    font-size: 0.7em;
+    padding: 5px;
+}
+footer{
+    text-align: center;
+    background-color: #7A439D;
+    border-radius: 10px 10px 0px 0px;
+}
+.contato span h3{
+    padding: 10px;
+}
+.contato span img{
+    padding: 5px;
+}
+span img:hover{
+    background-color: #eb368b;
+    box-shadow: 2px 2px 10px black;
+    border-radius: 0% 50% 50% 50%;
+    transition: 1s;
+}
