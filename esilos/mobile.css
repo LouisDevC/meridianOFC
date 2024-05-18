@@ -66,7 +66,7 @@ hr{
     display: none;
 }
 main{
-    width: 94vw;
+    width: 85vw;
     margin: auto;
 }
 h1{
@@ -90,13 +90,13 @@ h1{
 .container{
     background-color: #fadef8;
     display: inline-block;
-    width: 20vw;
-    height: 15.5vh;
+    width: 40vw;
+    height: 39vh;
     border: 3px solid #7A439D;
     border-radius: 20px;
     text-align: center;
     padding-top: 10px;
-    margin: 3px;
+    margin: 2px;
 }
 .container:hover{
     background-color: #F863BE;
@@ -104,15 +104,16 @@ h1{
 }
 .container img{
     border-radius: 5px;
-    width: 15vw;
-    height: 7vh;
+    width: 30vw;
+    height: 20vh;
     border: 1px solid #7A439D;
 }
 .container p{
     font-family: var(--quicksand);
-    font-size: 0.2em;
-    width: 19vw;
-    padding: px;
+    font-size: 1em;
+    width: 40vw;
+    padding: 2px;
+    padding-right: 8px;
     position: absolute;
 
 }
