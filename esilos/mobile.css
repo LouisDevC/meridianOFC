@@ -66,7 +66,7 @@ hr{
     display: none;
 }
 main{
-    padding: 5px 50px;
+    padding: 5px 55px 5px 40px;
 }
 h1{
     text-align: center;
@@ -87,8 +87,8 @@ h1{
 .container{
     background-color: #fadef8;
     display: inline-block;
-    width: 30vw;
-    height: 30vh;
+    width: 20vw;
+    height: 20vh;
     margin: 15px;
     border: 3px solid #7A439D;
     border-radius: 20px;
@@ -101,13 +101,13 @@ h1{
 }
 .container img{
     border-radius: 5px;
-    width: 20vw;
-    height: 15vh;
+    width: 10vw;
+    height: 5vh;
     border: 1px solid #7A439D;
 }
 .container p{
     font-family: var(--quicksand);
-    font-size: 0.8em;
+    font-size: 0.6em;
     padding: px;
 }
 footer{
