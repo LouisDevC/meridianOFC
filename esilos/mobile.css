@@ -91,7 +91,7 @@ h1{
     background-color: #fadef8;
     display: inline-block;
     width: 40vw;
-    height: 33vh;
+    height: auto;
     border: 3px solid #7A439D;
     border-radius: 20px;
     text-align: center;
@@ -105,16 +105,16 @@ h1{
 .container img{
     border-radius: 5px;
     width: 30vw;
-    height: 20vh;
+    height: 18vh;
     border: 1px solid #7A439D;
 }
 .container p{
     font-family: var(--quicksand);
-    font-size: 1em;
+    font-size: 0.5em;
     width: 40vw;
-    padding: 2px;
+    padding: 10px;
     padding-right: 8px;
-    position: absolute;
+    position: relative;
 
 }
 footer{
